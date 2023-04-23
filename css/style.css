@@ -97,22 +97,35 @@ button{
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+
     
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 .header-nav-list {
     display: flex;
-    align-items: center;
+    gap: 40px;
+}
+
+.header-nav-item {
+    padding: 24px 0;
 }
 
 .contacts-list {
     display: flex;
     align-items: center;
+    gap: 40px;
 
 }
 
+/* .contacts-item{
+    gap: 40px;
+
+} */
 
 .logo{
     font-family: Raleway, sans-serif;
@@ -125,23 +138,12 @@ button{
     color: var(--color-iris);
 }
 
-
-
 .logo-dark{
     color: var(--color-navy-blue);
 }
 
 .logo-light{
     color: var(--color-cloud);
-}
-
-.header-nav{
-    margin-right: auto;
-
-}
-
-.header-nav-item{
-    /* margin-right: auto; */
 }
 
 .header-nav-link{
@@ -169,10 +171,10 @@ button{
     margin-right: 40px;
 } */
 
-.contacts-item:nth-child(1){
+/* .contacts-item:nth-child(1){
     margin-right: 40px;
 
-}
+} */
 
 .contacts-link {
     line-height: 1.5;
