@@ -104,6 +104,7 @@ button{
 .header-nav {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .header-nav-list {
@@ -152,7 +153,7 @@ button{
     line-height: 1.5;
     list-style: inherit;
     color: var(--color-navy-blue);
-    margin-right: 40px;
+    /* margin-right: 40px; */
 }
 
 .header-nav-link:hover,
