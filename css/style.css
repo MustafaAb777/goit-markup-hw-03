@@ -113,7 +113,7 @@ button{
 }
 
 .header-nav-item {
-    padding: 24px 0;
+    
 }
 
 .contacts-list {
@@ -152,6 +152,7 @@ button{
     font-weight: 500;
     line-height: 1.5;
     list-style: inherit;
+    padding: 24px 0;
     color: var(--color-navy-blue);
     /* margin-right: 40px; */
 }
